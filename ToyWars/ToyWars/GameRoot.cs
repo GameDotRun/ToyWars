@@ -34,7 +34,6 @@ namespace ToyWars
             IsMouseVisible = true;
         }
 
-
         // Init
         protected override void Initialize()
         {
@@ -82,7 +81,7 @@ namespace ToyWars
         {
             // Draw the "sky".
             GraphicsDevice.Clear(Color.CornflowerBlue);
-            
+            // Begin spriteBatch.
             spriteBatch.Begin();
 
             // Draw the background.
@@ -100,7 +99,7 @@ namespace ToyWars
                     i < 1 ? Color.Black : Color.White );   // if (i<1) {C.Black} else {C.White}
             }
 #endif
-
+            // End spriteBatch.
             spriteBatch.End();
 
             base.Draw(gameTime);

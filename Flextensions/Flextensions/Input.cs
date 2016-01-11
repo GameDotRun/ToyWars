@@ -8,7 +8,7 @@ using System.Text;
 namespace Flextensions
 {
     /// <summary>
-    /// A series of helper functions to get various input data.
+    /// A set of helper functions to get various input data easier.
     /// </summary>
     public static class Input
     {
